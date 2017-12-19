@@ -1,0 +1,43 @@
+body {
+	font-size: 16px;
+	color: #222;
+	margin: 0;
+	background-color: #a8e063;
+}
+
+header {
+	background: linear-gradient(to right, #AA3A38, #2F7336);
+	margin: 0;
+	border-bottom: 2px solid darkgreen;
+}
+
+.container {
+	max-width: 600px;
+	width: 100%;
+	margin: 0 auto;
+	background-color: #fff;
+	padding: 40px;
+	color: #000;
+}
+
+h1 {
+	text-align: center;
+	color: #efefef;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-style: italic;
+	letter-spacing: 3px;
+	padding: 40px 0;
+	margin: 0;
+	font-size: 40px;
+}
+
+h2 {
+	text-align: center;
+	margin: 0;
+}
+
+.text {
+	text-align: center;
+	padding: 25px;
+}
