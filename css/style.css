@@ -31,11 +31,16 @@ h1 {
   font-size: 45px; }
 
 h2 {
+  display: flex;
+  justify-content: center;
   text-align: center;
   margin: 0; }
 
 .text {
   text-align: center;
   padding: 25px; }
+
+.green {
+  color: green; }
 
 /*# sourceMappingURL=style.css.map */

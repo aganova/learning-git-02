@@ -35,11 +35,20 @@ h1 {
   font-size: 45px; }
 
 h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-align: center;
   margin: 0; }
 
 .text {
   text-align: center;
   padding: 25px; }
+
+.green {
+  color: green; }
 
 /*# sourceMappingURL=style.prefixed.css.map */

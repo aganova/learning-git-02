@@ -21,6 +21,8 @@ header {
 }
 
 h1 {
+	display: flex;
+  	justify-content: center;
 	text-align: center;
 	color: #efefef;
 	font-weight: bold;
@@ -33,6 +35,8 @@ h1 {
 }
 
 h2 {
+	display: flex;
+  	justify-content: center;
 	text-align: center;
 	margin: 0;
 }
