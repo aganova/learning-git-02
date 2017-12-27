@@ -18,8 +18,12 @@ header {
   color: #000; }
 
 h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   text-align: center;
   color: #efefef;
   font-weight: bold;
@@ -38,4 +42,4 @@ h2 {
   text-align: center;
   padding: 25px; }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.prefixed.css.map */
