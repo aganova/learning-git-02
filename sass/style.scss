@@ -23,6 +23,7 @@ header {
 h1 {
 	display: flex;
   	justify-content: center;
+  	flex: wrap;
 	text-align: center;
 	color: #efefef;
 	font-weight: bold;
@@ -42,6 +43,8 @@ h2 {
 }
 
 .text {
+	display: flex;
+  	justify-content: center;
 	text-align: center;
 	padding: 25px;
 }
